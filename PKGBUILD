@@ -9,7 +9,7 @@ depends=('libuv' 'libyaml' 'wslay' 'zlib')
 makedepends=('cmake' 'libtool' 'make' 'pkg-config')
 url="https://github.com/h2o/h2o"
 license=('MIT')
-source=("$pkgname"::'git+https://github.com/tamediadigital/h2o.git#branch=dist3'
+source=("$pkgname"::'git+https://github.com/tamediadigital/h2o.git#branch=distribution'
         h2o.service
 	mruby_config.rb
 )
